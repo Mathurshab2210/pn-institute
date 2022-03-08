@@ -17,7 +17,27 @@
         touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
 }
+.carousel11{
+    display: none;
+}
+#m3{
+    display: none;
+}
+@media(max-width:450px){
+    .slick-slider{
+        display: none;
+    }
+    #m3{
+        display: block;
+    }
+    .carousel11{
+        display: block;
+    }
+    .section__description{
+        display: none;
+    }
 
+}
 .slick-list
 {
     position: relative;
